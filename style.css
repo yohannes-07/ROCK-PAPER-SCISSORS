@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    color: hsl(136, 92%, 28%);
+    font-weight: 800;
+    margin: 20px;
+    text-align: center;
+    
+}
+header h1{
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.score{
+    text-align: center;
+    color: yellowgreen;
+   
+
+}
+.humanlogo{
+    visibility: hidden;
+}
+.computerlogo{
+    visibility: hidden;
+}
+
+#livescore{
+    color: #240957; 
+    margin-top: 5px;  
+}
+
+
+.result{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin-top: 40px;
+    padding-left: 50px;
+}
+.match{
+    text-align: center;
+    align-items: center;
+    margin-right: 80px;
+    color:orange;
+}
+
+.images{
+display: flex;
+justify-content: center;
+margin-top: 30px;
+position: relative;
+
+}
+.rock{
+    margin: 40px;
+    
+}
+
+.paper{
+    margin: 40px;
+    
+
+}
+.scissor{
+    margin: 40px;
+    
+}
+.text{
+    font-size: 50px;
+    margin-bottom: 30px;
+    font-weight: bolder;
+    text-align: center;
+    
+}
+.btn{
+    border:none;
+
+}
+.btn:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.rock .text{
+    color: gray;
+}
+.paper .text{
+    color: rgb(255, 60, 0);
+
+}
+.scissor .text{
+    color: #095257;
+}
+
+footer{
+    display: flex;
+    color: aliceblue;
+    background-color: rgb(9, 48, 85);
+    padding: 5px 100px;
+    margin-top: 100px;
+    
+}
+footer .github{
+    display: inline-block;
+    margin: 0 15px;
+
+}
+.newgame{
+    position: absolute;
+    right: 800px;
+    bottom: -60px;
+
+}
+#newgame{
+    border:2px solid #f2f7f7;
+    padding: 10px 16px;
+    background-color: #005eff;
+    color:#f0f3f3 ;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+    visibility: hidden;
+
+}
+#newgame:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    
+}

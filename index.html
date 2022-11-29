@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rock paper scissors</title>
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+<body>
+    <header>
+        <h1>ROCK PAPER SCISSORS </h1>
+        <h2>First five to win!</h2>
+    </header>
+    
+    <section class="score">
+        <h3 id="test">Score</h3>
+        <h1 id="livescore">| 0 : 0 |</h1>
+    </section>
+    
+    <section class="result">
+        <div class="human">
+            <div class="humanlogo"><img id="humanlogo" src="images/beard.jpg" alt="human" width="150px" height="150px"></div>
+            <div class="playerimg"><img id="playerImg" src="images/whitebk.png" alt="blank" width="300px" height="300px"></div>
+        </div>
+
+        <div class="match"><h2 id="match">  Choose from the images and play!   </h2></div>
+
+        <div class="computer">
+            <div class="computerlogo"><img id="computerlogo" src="images/computer.png" alt="computer" width="150px" height="150px"></div>
+            <div class="computerimg"><img id="computerImg" src="images/whitebk.png" alt="blank" width="300px" height="300px"></div>
+
+        </div>
+
+    </section>
+    <section class="images">
+        <div id="rock">
+            <div class="text">Rock</div>
+            <div ><button  class="btn"><img src="images/rock.jpg" alt="rock" width="300px" height="300px"></button></div>
+        </div>
+
+        <div id="paper">
+            <div class="text">Paper</div>
+            <div><button class="btn" > <img src="images/paper.jpg" alt="paper" width="300px" height="300px"></button></div>
+        </div>
+
+        <div id="scissor"">
+            <div class="text">Scissors</div>
+            <div><button  class="btn"><img src="images/scissors.jpg" alt="scissor" width="300px" height="300px"></button></div>
+        </div>
+        <div class="newgame">
+        <button id="newgame">New Game</button>
+        </div>
+        
+    </section>
+    
+    <footer>
+        <div><h5>copyright</h5></div>
+        <div class="github">Github</div>
+    </footer>
+
+
+<script src="script.js"></script>
+    
+</body>
+</html>
