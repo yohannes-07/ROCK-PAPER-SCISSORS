@@ -53,6 +53,8 @@ function newGame(){
     computerScore = 0;
     playerScore = 0;
     score.textContent = `| ${playerScore} : ${computerScore} |`;
+    match.textContent = "Choose from the image and play!";
+    match.style.color = "orange";
 
 }
 

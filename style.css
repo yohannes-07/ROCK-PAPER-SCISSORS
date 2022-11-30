@@ -84,14 +84,14 @@ position: relative;
     cursor: pointer;
     transform: scale(1.1);
 }
-.rock .text{
+#rock .text{
     color: gray;
 }
-.paper .text{
-    color: rgb(255, 60, 0);
+#paper .text{
+    color: rgb(173, 98, 148);
 
 }
-.scissor .text{
+#scissor .text{
     color: #095257;
 }
 
