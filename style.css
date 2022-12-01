@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    
 }
 
 header{
@@ -40,10 +41,10 @@ header h1{
     gap: 60px;
     margin-top: 40px;
     padding-left: 50px;
+    
 }
 .match{
     text-align: center;
-    align-items: center;
     margin-right: 80px;
     color:orange;
 }
@@ -55,18 +56,18 @@ margin-top: 30px;
 position: relative;
 
 }
-.rock{
-    margin: 40px;
+#rock{
+    margin: 0 40px;
     
 }
 
-.paper{
-    margin: 40px;
+#paper{
+    margin: 0 40px;
     
 
 }
-.scissor{
-    margin: 40px;
+#scissor{
+    margin: 0 40px;
     
 }
 .text{
@@ -99,23 +100,27 @@ footer{
     display: flex;
     color: aliceblue;
     background-color: rgb(9, 48, 85);
-    padding: 5px 100px;
+    padding-top: 5px;
     margin-top: 100px;
+    justify-content: center;
     
 }
 footer .github{
     display: inline-block;
-    margin: 0 15px;
+    margin: 5px 20px;
 
+}
+footer div h4{
+    margin: 5px 20px;
 }
 .newgame{
     position: absolute;
-    right: 800px;
+    right: 850px;
     bottom: -60px;
 
 }
 #newgame{
-    border:2px solid #f2f7f7;
+    border:2px solid hsl(180, 24%, 96%);
     padding: 10px 16px;
     background-color: #005eff;
     color:#f0f3f3 ;
@@ -128,5 +133,10 @@ footer .github{
 #newgame:hover{
     cursor: pointer;
     transform: scale(1.1);
+    border-color: 4px solid hsl(61, 86%, 53%) ;
     
 }
+
+
+  
+  
